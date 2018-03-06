@@ -6,8 +6,8 @@ function whisper(n){
 }
 function logShout(string){
   var spy=string.toUpperCase();
-//   console.log(spy);
-  return spy;
+  console.log(spy);
+  // return spy;
   
 }
 function sayHiToGrandma(string){
