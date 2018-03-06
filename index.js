@@ -5,10 +5,9 @@ function whisper(n){
   return n.toLowerCase()
 }
 function logShout(string){
-  var spy=string;
-  console.log(spy);
-  string.toUpperCase();
-  return string;
+  var spy=string.toUpperCase();
+//   console.log(spy);
+  return spy;
   
 }
 function sayHiToGrandma(string){
